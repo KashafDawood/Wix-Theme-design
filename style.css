@@ -1,0 +1,357 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Koulen', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+}
+
+.logo {
+    text-align: center;
+    flex-basis: 40%;
+    padding: 30px 0;
+}
+.logo h3 {
+    font-size: 25px;
+    word-spacing: 5px;
+    padding-bottom: 5px;
+    padding-left: 300px;
+}
+
+.logo p {
+    padding-left: 300px;
+}
+
+.menu {
+    flex-basis: 60%;
+    padding-left: 150px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 50px 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+/* banner */
+.banner{
+    background: url(banner2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.banner_content {
+    text-align: center;
+    padding: 200px 0;
+}
+
+.banner_content .up {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+.banner_content .down {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.banner_content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 150px;
+    letter-spacing: 20px;
+}
+
+.banner_content button {
+    padding: 10px 30px;
+    margin: 25px 0;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.banner_content button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* about */
+.about_container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.about_text {
+    flex-basis: 50%;
+    padding: 80px;
+    padding-left: 300px;
+}
+
+.about_text span {
+    text-decoration: overline 2px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.about_text h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.me {
+    z-index: -1;
+    position: relative;
+    top: -10px;
+    padding-bottom: 60px;
+}
+
+.about_text p {
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.about_text button {
+    padding: 10px 30px;
+    margin: 25px 0;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.about_text button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.about_img {
+    flex-basis: 50%;
+}
+
+.about_img img {
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+}
+
+/* plans */
+.plan_container {
+    background: url(bg.webp);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.plan_container span {
+    text-decoration: overline 2px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.plan_title h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-top: 100px;
+    margin-left: 320px;
+    margin-right: 60%;
+}
+
+.button {
+    text-align: center;
+}
+
+.plan_container button {
+    padding: 10px 40px;
+    margin: 50px 0;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.plan_container button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* box */
+.plan_group{
+    display: flex;
+    margin: 50px 20%;
+}
+
+.planbox1 {
+    border: 7px solid black;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 30px;
+}
+
+.planbox2 {
+    width: 300px;
+    height: 400px;
+    margin: 0 30px;
+    text-align: center;
+}
+
+.planbox3 {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+
+.plan_content h3 {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.planbox_content p {
+    font-size: 15px;
+}
+
+.main {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.price {
+    padding-top: 30px;
+}
+
+.time {
+    padding-bottom: 10px;
+}
+
+.plan_content button {
+    padding: 10px 40px;
+    margin: 50px 0;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.plan_content button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 600px;
+    background-color: #57bbbf;
+    padding: 50px 300px 60px;
+}
+
+.footerContainer {
+    display: flex;
+}
+
+.address {
+    flex-basis: 50%;
+}
+
+.address h2 {
+    margin-bottom: 20px;
+}
+
+.address h2::before{
+    content: " ";
+    background-color: black;
+    display: block;
+    width: 40px;
+    height: 1.5px;
+    margin-bottom: 5px;
+}
+
+.address p {
+    padding: 20px 0;
+}
+
+.socials {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.socials img {
+    width: 30px;
+}
+
+.contactUs {
+    flex-basis: 50%;
+}
+
+.contactUs form input , textarea{
+    width: 100%;
+    background-color: transparent;
+    border: black solid 1px;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.contactUs button {
+    padding: 10px 40px;
+    margin: 20px 0;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.contactUs button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
