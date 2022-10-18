@@ -435,11 +435,3 @@ font-family: 'Koulen', cursive; */
     }
 
 }
-
-@media screen and (max-width: 767px) {
-    
-    body{
-        color: blue;
-    }
-
-}
